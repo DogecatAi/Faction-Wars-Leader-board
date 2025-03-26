@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Faction-Wars-Leader-board/static/css/main.f855e6bc.css",
+    "main.js": "/Faction-Wars-Leader-board/static/js/main.e1c03982.js",
+    "static/js/453.fb0c5cd6.chunk.js": "/Faction-Wars-Leader-board/static/js/453.fb0c5cd6.chunk.js",
+    "static/media/logo.svg": "/Faction-Wars-Leader-board/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Faction-Wars-Leader-board/index.html",
+    "main.f855e6bc.css.map": "/Faction-Wars-Leader-board/static/css/main.f855e6bc.css.map",
+    "main.e1c03982.js.map": "/Faction-Wars-Leader-board/static/js/main.e1c03982.js.map",
+    "453.fb0c5cd6.chunk.js.map": "/Faction-Wars-Leader-board/static/js/453.fb0c5cd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.e1c03982.js"
+  ]
+}
