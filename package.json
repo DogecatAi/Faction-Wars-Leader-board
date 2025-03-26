@@ -1,23 +1,31 @@
 {
-  "name": "faction-wars-leaderboard-new",
+  "name": "faction-wars-leaderboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/Faction-Wars-Leader-board",
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.7",
+    "@mui/icons-material": "^5.15.7",
+    "chart.js": "^4.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ethers": "^5.7.2",
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/contracts": "^5.7.0",
+    "web3-react": "^5.1.0",
+    "react-scripts": "5.0.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.126",
-    "@types/react": "^19.0.12",
-    "@types/react-dom": "^19.0.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +48,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.75",
+    "@types/react": "^18.2.49",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^4.9.5"
   }
 }
